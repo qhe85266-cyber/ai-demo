@@ -1,0 +1,11 @@
+[
+ {"id":"rss-lennys-newsletter","name":"Lenny's Newsletter","kind":"rss","config":{"feedUrl":"https://www.lennysnewsletter.com/feed","_aihot":{"initialBackfillLimit":8}},"tier":"T2","interval_minutes":360,"tags":["产品经理"]},
+ {"id":"rss-aakash-product-growth","name":"Product Growth（Aakash Gupta）","kind":"rss","config":{"feedUrl":"https://www.news.aakashg.com/feed","_aihot":{"initialBackfillLimit":8}},"tier":"T2","interval_minutes":360,"tags":["产品经理"]},
+ {"id":"rss-one-useful-thing","name":"One Useful Thing（Ethan Mollick）","kind":"rss","config":{"feedUrl":"https://www.oneusefulthing.org/feed","_aihot":{"initialBackfillLimit":6}},"tier":"T2","interval_minutes":360,"tags":["AI 应用"]},
+ {"id":"rss-bens-bites","name":"Ben's Bites","kind":"rss","config":{"feedUrl":"https://www.bensbites.com/feed","_aihot":{"initialBackfillLimit":8}},"tier":"T2","interval_minutes":240,"tags":["AI 产品"]},
+ {"id":"rss-google-ai-blog","name":"Google AI Blog（The Keyword）","kind":"rss","config":{"feedUrl":"https://blog.google/innovation-and-ai/technology/ai/rss/","_aihot":{"initialBackfillLimit":8}},"tier":"T1","interval_minutes":120,"tags":["官方"]},
+ {"id":"web-anthropic-news","name":"Anthropic News","kind":"web_list","config":{"url":"https://www.anthropic.com/news","parseMode":"html","itemSelector":"a[class*=\"PublicationList\"][class*=\"listItem\"]","linkSelector":"a","titleSelector":"span[class*=\"__title\"]","publishedAtSelector":"time","publishedAtUtcOffset":"+00:00","allowUrlPrefixes":["https://www.anthropic.com/news/"],"_aihot":{"initialBackfillLimit":8}},"tier":"T1","interval_minutes":120,"tags":["官方"]},
+ {"id":"rss-qbitai","name":"量子位","kind":"rss","config":{"feedUrl":"https://www.qbitai.com/feed","_aihot":{"initialBackfillLimit":10}},"tier":"T2","interval_minutes":60,"tags":["中文媒体"]},
+ {"id":"rss-ifanr","name":"爱范儿","kind":"rss","config":{"feedUrl":"https://www.ifanr.com/feed","_aihot":{"initialBackfillLimit":8}},"tier":"T2","interval_minutes":120,"tags":["中文媒体","产品"]},
+ {"id":"rss-svpg","name":"SVPG（Marty Cagan）","kind":"rss","config":{"feedUrl":"https://www.svpg.com/feed/","_aihot":{"initialBackfillLimit":5}},"tier":"T2","interval_minutes":720,"tags":["产品经理"]}
+]
